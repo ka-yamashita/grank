@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "grank"
   spec.version       = Grank::VERSION
   spec.authors       = ["kazuhiko yamashita"]
-  spec.email         = ["pyama@pepabo.com"]
+  spec.email         = ["wwww.kazu.com@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{get google pagerank}
+  spec.description   = %q{get google pagerank}
+  spec.homepage      = "http://ten-snapon.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
