@@ -10,7 +10,10 @@ gem 'grank'
 
 ## Usage
 
-  Grank.get_page_rank('hoge.com') => 3
+  ```rubu
+  include Grank
+  get_page_rank('hoge.com') # => 3
+  ```
 
 ## Author
 * ka-yamashita
