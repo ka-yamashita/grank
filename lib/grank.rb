@@ -7,7 +7,6 @@ module Grank
     seed = "Mining PageRank is AGAINST GOOGLE'S TERMS OF SERVICE. Yes, I'm talking to you, scammer."
     tmp = 0x01020345
 
-    ## 日本語ドメインも対応しています
     domain_name = SimpleIDN.to_ascii(domain_name)
 
     domain_name.length.times do |i|
